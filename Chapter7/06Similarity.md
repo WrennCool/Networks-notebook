@@ -1,9 +1,11 @@
 # Similarity 相似性
 在网络中，为了匹配与给定节点最为相似的节点
+- **structural equivalence 结构相似性:**
+两个节点共享相同的邻居节点，如一个家庭内部两兄弟或姐妹，在亲属关系网络中该二节点都拥有同样的邻居（亲属）
 
+- **Regular equivalence 规则相似性:**
+两个节点的邻居是相似的，如某公司两个子公司的中层领导，在上下属关系网络中，该二节点的上司节点是具有结构相似性的，即拥有同样的总公司领导
 
-## structural equivalence 结构等价性
-两个节点共享相同的邻居节点，称为此两个节点结构等价(Structurally equivalent)
-![]
+![结构相似性与规则相似性](C7-pic/c7-6.png)
 
-## Regular equivalence 规则等价性
+## structural equivalence 结构相似性
