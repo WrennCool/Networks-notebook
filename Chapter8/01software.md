@@ -78,3 +78,14 @@
 
 ### hybrid matrix/list representations
 
+### Adjacency lists stored in data structures other than arrays
+
+### Representations with variables on edges
+创建额外的数据结构来分别存储边的属性。例如，可以使用一组 m 个元素，每条边一个。这个数组可以链接到网络结构的主要表示：例如，使用邻接表，我们可以在列表的每个条目中存储一个指向边数据数组中相应元素的指针
+
+### Edge lists
+是由边连接的节点对的列表
+图2网络使用边缘列表表示将是 (1,3), (4,1), (4,3), (4,5)。边的顺序通常在边列表中并不重要，节点对中的节点顺序也不重要。对于一个未连接边的节点，则无法显示在该列表种
+
+
+$P\left(x_{1}, \ldots, x_{N} \mid z, \sigma\right)=\prod_{i=1}^{N} P\left(x_{i} \mid z, \sigma\right)=\prod_{i=1}^{N} \frac{1}{\sqrt{2 \pi \sigma^{2}}} \mathrm{e}^{-\left(x_{i}-z\right)^{2} / 2 \sigma^{2}}$
